@@ -1,6 +1,6 @@
 // Initialized Basics
 function display() {
-    document.getElementById("s1").innerHTML=`Muhammad Faizan Ashraf`;
+    document.getElementById("s1").innerHTML=`Muhammad Faizan Ashraf is Logged In.`;
 }
 
 function rmdis() {

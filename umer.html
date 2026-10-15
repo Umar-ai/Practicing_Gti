@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login</title>
   <script type="text/javascript" src="faizan.js"></script>
+  <script type="text/javascript" src="extradataloadingjava.js"></script>
 </head>
 <body>
   <!-- <main class="login-card"> -->
@@ -21,9 +22,12 @@
       </div>
 
       <button type="submit">Sign in</button> -->
-      <button onclick="display()" ondblclick="rmdis()">Show name</button>
+      <input type="text" id="i1" placeholder="Enter Customer ID">
+      <button onclick="display(); customercheck();" ondblclick="rmdis()">Show name</button>
 
       <span id="s1"></span>
+      <br>
+      <span id="customersdetails"></span>
       <br>
     <!-- </form> -->
     <p class="helper-text"><a href="#">Forgot your password?</a></p>

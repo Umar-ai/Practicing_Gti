@@ -8,7 +8,7 @@ function customercheck() {
         if (xhttp.status === 200) {
             const response = JSON.parse(xhttp.response);
             console.log(response);
-            document.getElementById("s1").innerHTML = `
+            document.getElementById("customersdetails").innerHTML = `
                     <h3>Customer Details</h3>
                     <p><b>Customer ID:</b> ${response.customerid}</p>
                     <p><b>Customer Name:</b> ${response.customername}</p>
